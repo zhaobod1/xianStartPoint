@@ -168,6 +168,9 @@
                         $("li.level0").each(function() {
                             $(this).find("span").eq(0).remove();
                         });
+
+                        $("#treeDemo_18").hide();
+                        $("#treeDemo_19").hide();
                         
                     }
                     else {
@@ -253,16 +256,6 @@
             curExpandNode = treeNode;
         }
     </script>
-
-
-    <!--huo15.com-->
-    <script>
-     $(function() {
-        $("#treeDemo_18").hide();
-        $("#treeDemo_19").hide();
-    })
-    </script>
-   
 
 </body>
 </html>
