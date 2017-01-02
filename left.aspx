@@ -256,7 +256,7 @@
 
 
 <style>
-    #treeDemo_18,#treeDemo_19 {
+    #treeDemo_17 {
         display: none;
     }
 </style>
