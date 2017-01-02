@@ -168,9 +168,6 @@
                         $("li.level0").each(function() {
                             $(this).find("span").eq(0).remove();
                         });
-
-                        $("#treeDemo_18").hide();
-                        $("#treeDemo_19").hide();
                         
                     }
                     else {
@@ -257,5 +254,11 @@
         }
     </script>
 
+
+<style>
+    #treeDemo_18,#treeDemo_19 {
+        display: none;
+    }
+</style>
 </body>
 </html>
